@@ -1,6 +1,9 @@
 <?php
 
-namespace App\Models\Pizza;
+namespace App\Models\Pizza\Builder;
+
+use App\Models\Pizza\Pizza;
+use App\Models\Pizza\PizzaInterface;
 
 class MargheritaPizzaBuilder implements PizzaBuilderInterface
 {

@@ -2,8 +2,8 @@
 
 /** @var \Laravel\Lumen\Routing\Router $router */
 
-use App\Models\Pizza\CookDirector;
-use App\Models\Pizza\MargheritaPizzaBuilder;
+use App\Models\Pizza\Builder\CookDirector;
+use App\Models\Pizza\Builder\MargheritaPizzaBuilder;
 use App\Models\Pizza\Pizza;
 
 /*
